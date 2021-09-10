@@ -10,11 +10,7 @@ int main()
 	где a, b, c, d – целочисленные константы. Используйте static_cast или СStyle cast к float чтобы выполнить точное деление.
 	*/
 	{
-		int a, b, c, d;
-		a = 6;
-		b = 9;
-		c = 66;
-		d = 6699;
+		const int a=6, b=9, c=66, d=6699;
 		float f = a * (b + (float(c) / d));
 		cout << f << endl;
 	}
